@@ -1,0 +1,3 @@
+Program je potrebno kompajlirati sa naredbom: "gcc 1dz.c -lm -lpthread". "-lm" je nužan jer kompajler inače neće prepoznati log2 funkciju iz math biblioteke.
+
+Veličina niza x i broj dretvi se mogu postaviti na pocetku maina. n je velicina niza x, a num_threads broj dretvi. Također u sredini maina je napravljena for petlja koja popunjava x sa željenim vrijednostima, u ovom slučaju to su jedinice pošto nas zadatak to traži. Možete promijeniti za izračun druge sume brojeva.
